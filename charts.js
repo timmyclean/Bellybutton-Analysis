@@ -135,13 +135,10 @@ function init() {
     var result = resultsArray[0];
   
 
-    // Create variables that hold the otu_ids, otu_labels, and sample_values.
-
-
     // 3. Create a variable that holds the washing frequency.
     var washing = result.wfreq
     console.log(washing)
-// 4. Create the trace for the gauge chart.
+    // 4. Create the trace for the gauge chart.
     var gaugeData = [
       {
         value: washing,
